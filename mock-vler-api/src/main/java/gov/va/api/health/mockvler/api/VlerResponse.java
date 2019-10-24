@@ -1,22 +1,16 @@
 package gov.va.api.health.mockvler.api;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
+import java.util.ArrayList;
+import java.util.List;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
-
-
-import javax.validation.constraints.Null;
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @Builder
@@ -31,6 +25,7 @@ public final class VlerResponse {
   List<Contacts> contacts;
 
   int count;
+
   /** Lazy getter. */
   public List<Contacts> contacts() {
     if (contacts == null) {
@@ -53,16 +48,20 @@ public final class VlerResponse {
     String mail;
 
     String uid;
+
     @JsonProperty("givenname")
     String givenName;
 
     String initials;
 
     String sn;
+
     @JsonProperty("physicaldeliveryofficename")
     String physicalDeliveryOfficeName;
 
-    String o;
+    @JsonProperty("o")
+    String organization;
+
     @JsonProperty("departmentnumber")
     String departmentNumber;
 
@@ -77,5 +76,4 @@ public final class VlerResponse {
 
     String facility;
   }
-
 }
