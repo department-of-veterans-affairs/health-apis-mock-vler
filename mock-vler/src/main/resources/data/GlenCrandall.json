@@ -1,0 +1,17 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Crandall, Glen C.",
+            "mail" : "glen.crandall@test2.direct.va.gov",
+            "uid" : "glen.crandall",
+            "givenname" : "Glen",
+            "initials" : "C.",
+            "sn" : "Crandall",
+            "departmentnumber" : "VHA VLER Health",
+            "title" : "Project Manager",
+            "cn" : "Glen Crandall",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

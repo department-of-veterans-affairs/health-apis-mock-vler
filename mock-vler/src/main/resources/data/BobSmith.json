@@ -1,0 +1,14 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Smith, Bob",
+            "mail" : "bob.smith@test2.direct.va.gov",
+            "uid" : "bob.smith",
+            "givenname" : "Bob",
+            "sn" : "Smith",
+            "cn" : "Bob Smith",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

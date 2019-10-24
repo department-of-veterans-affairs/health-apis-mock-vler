@@ -1,0 +1,18 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Teshome, Natnael",
+            "mail" : "natnael.teshome@test2.direct.va.gov",
+            "uid" : "natnael.teshome",
+            "givenname" : "Natnael",
+            "sn" : "Teshome",
+            "o" : "LTS",
+            "departmentnumber" : "Office of Information Technology",
+            "mobile" : "5712285520",
+            "title" : "Software Test Engineer",
+            "cn" : "Natnael Teshome",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

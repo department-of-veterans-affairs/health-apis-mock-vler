@@ -1,0 +1,15 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Holt2, Brandon P",
+            "mail" : "brandon.holt@test2.direct.va.gov",
+            "uid" : "brandon.holt",
+            "givenname" : "Brandon",
+            "initials" : "P",
+            "sn" : "Holt2",
+            "cn" : "Brandon Holt2",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

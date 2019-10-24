@@ -1,0 +1,19 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Reiter, Maryann",
+            "mail" : "maryann.reiter@test2.direct.va.gov",
+            "uid" : "maryann.reiter",
+            "givenname" : "Maryann",
+            "sn" : "Reiter",
+            "physicaldeliveryofficename" : "Denver, CO",
+            "o" : "VA Community Care",
+            "departmentnumber" : "Systems Engineering Management",
+            "mobile" : "3038812120",
+            "title" : "Business Analyst",
+            "cn" : "Maryann Reiter",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

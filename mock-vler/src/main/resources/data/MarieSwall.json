@@ -1,0 +1,15 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Swall, Marie N.",
+            "mail" : "marie.swall@test2.direct.va.gov",
+            "uid" : "marie.swall",
+            "givenname" : "Marie",
+            "initials" : "N.",
+            "sn" : "Swall",
+            "cn" : "Marie Swall",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

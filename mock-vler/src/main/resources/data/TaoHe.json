@@ -1,0 +1,18 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "He, Tao",
+            "mail" : "tao.he@test2.direct.va.gov",
+            "uid" : "tao.he",
+            "givenname" : "Tao",
+            "sn" : "He",
+            "physicaldeliveryofficename" : "Salt Lake City",
+            "o" : "SLC-VA",
+            "departmentnumber" : "Ideas Center ",
+            "title" : "Computer Professional",
+            "cn" : "Tao He",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

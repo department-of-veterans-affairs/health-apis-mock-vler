@@ -1,0 +1,17 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Hathaway, Laura L",
+            "mail" : "laura.hathaway@test2.direct.va.gov",
+            "uid" : "laura.hathaway",
+            "givenname" : "Laura",
+            "initials" : "L",
+            "sn" : "Hathaway",
+            "departmentnumber" : "DSME - VLER",
+            "title" : "Developer",
+            "cn" : "Laura Hathaway",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

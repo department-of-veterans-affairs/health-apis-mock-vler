@@ -1,0 +1,15 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Denson, Phyllis B.",
+            "mail" : "phyllis.denson@test2.direct.va.gov",
+            "uid" : "phyllis.denson",
+            "givenname" : "Phyllis",
+            "initials" : "B.",
+            "sn" : "Denson",
+            "cn" : "Phyllis Denson",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

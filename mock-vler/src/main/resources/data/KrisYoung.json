@@ -1,0 +1,15 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Young, Kris P.",
+            "mail" : "kris.young@test2.direct.va.gov",
+            "uid" : "kris.young",
+            "givenname" : "Kris",
+            "initials" : "P.",
+            "sn" : "Young",
+            "cn" : "Kris Young",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

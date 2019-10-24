@@ -1,0 +1,11 @@
+{
+    "contacts" : [
+        {
+            "cn" : "Test Group",
+            "mail" : "testgroup@test2.direct.va.gov",
+            "o" : "testgroup",
+            "facility" : "Administration"
+        }
+    ],
+    "count" : 1
+}

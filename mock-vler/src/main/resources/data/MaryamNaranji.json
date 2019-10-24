@@ -1,0 +1,21 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Naranji, Maryam MN",
+            "mail" : "maryam.naranji@test2.direct.va.gov",
+            "uid" : "maryam.naranji",
+            "givenname" : "Maryam",
+            "initials" : "MN",
+            "sn" : "Naranji",
+            "physicaldeliveryofficename" : "Ashburn, VA",
+            "o" : "B3 Group",
+            "departmentnumber" : "Direct",
+            "mobile" : "571-238-2689",
+            "telephonenumber" : "571-238-2689",
+            "title" : "Test Engineer",
+            "cn" : "Maryam Naranji",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}
