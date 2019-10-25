@@ -16,6 +16,6 @@ public class MockVlerTest {
   @Test
   public void validateAddressCount() {
     AddressResponse actual = controller.getAddresses();
-    assertThat(actual.count()).isEqualTo(21);
+    assertThat(actual.count()).isEqualTo(30);
   }
 }
