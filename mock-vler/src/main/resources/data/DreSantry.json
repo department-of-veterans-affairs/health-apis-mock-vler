@@ -1,0 +1,19 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Santry, Dre",
+            "mail" : "dre.santry@mocktest.direct.com",
+            "uid" : "dre.santry",
+            "givenname" : "Dre",
+            "sn" : "Santry",
+            "physicaldeliveryofficename" : "Cincinnati, OH",
+            "o" : "Test Organization",
+            "departmentnumber" : "Testing Company",
+            "mobile" : "821-768-4130",
+            "title" : "Editor",
+            "cn" : "Dre Santry",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

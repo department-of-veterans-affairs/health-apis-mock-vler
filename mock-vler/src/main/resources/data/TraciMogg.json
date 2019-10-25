@@ -1,0 +1,15 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Mogg, Traci Z",
+            "mail" : "traci.mogg@mocktest.direct.com",
+            "uid" : "traci.mogg",
+            "givenname" : "Traci",
+            "initials" : "Z",
+            "sn" : "Mogg",
+            "cn" : "Traci Mogg",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

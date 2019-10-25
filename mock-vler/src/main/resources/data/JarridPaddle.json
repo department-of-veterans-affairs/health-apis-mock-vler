@@ -1,0 +1,19 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Paddle, Jarrid",
+            "mail" : "jarrid.paddle@mocktest.direct.com",
+            "uid" : "jarrid.paddle",
+            "givenname" : "Jarrid",
+            "sn" : "Paddle",
+            "physicaldeliveryofficename" : "Detroit, MI",
+            "o" : "Test Organization",
+            "departmentnumber" : "Up Up and Away Co.",
+            "mobile" : "(307) 808 4035",
+            "title" : "Data Coordiator",
+            "cn" : "Jarrid Paddle",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}

@@ -1,0 +1,19 @@
+{
+    "contacts" : [
+        {
+            "displayname" : "Jessel, Homerus",
+            "mail" : "homerus.jessel@mocktest.direct.com",
+            "uid" : "homerus.jessel",
+            "givenname" : "Homerus",
+            "sn" : "Jessel",
+            "physicaldeliveryofficename" : "Riverside, CA",
+            "o" : "Test Organization",
+            "departmentnumber" : "There Twas a Land",
+            "mobile" : "997-316-6624",
+            "title" : "Biostatistician I",
+            "cn" : "Homerus Jessel",
+            "facility" : "Test Facility"
+        }
+    ],
+    "count" : 1
+}
