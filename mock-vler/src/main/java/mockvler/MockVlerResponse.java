@@ -1,4 +1,4 @@
-package gov.va.api.health.mockvler.api;
+package mockvler;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
   isGetterVisibility = JsonAutoDetect.Visibility.NONE
 )
 @Schema(example = "SWAGGER_EXAMPLE_VLER_RESPONSE")
-public final class VlerResponse {
+public final class MockVlerResponse {
   List<Contacts> contacts;
 
   int count;
