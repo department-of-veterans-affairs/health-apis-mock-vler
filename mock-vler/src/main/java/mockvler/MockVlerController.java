@@ -13,31 +13,31 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MockVlerController {
 
-  @SneakyThrows
-  private MockVlerResponse buildVlerReponseOffHardCodedDataFiles() {
-    File folder = new File("mock-vler/src/main/resources/data");
-    File[] listOfFiles = folder.listFiles();
-
-    List<MockVlerResponse.Contacts> contacts = new ArrayList<>();
-    MockVlerResponse currentResponse;
-    ObjectMapper mapper = new ObjectMapper();
-    JsonFactory jsonFactory = new JsonFactory();
-    for (int i = 0; i < listOfFiles.length; i++) {
-      currentResponse =
-          mapper.readValue(jsonFactory.createParser(listOfFiles[i]), MockVlerResponse.class);
-      for (int j = 0; j < currentResponse.contacts().size(); j++) {
-        contacts.add(currentResponse.contacts().get(j));
-      }
-    }
-    return MockVlerResponse.builder().contacts(contacts).count(contacts.size()).build();
-  }
-
   @GetMapping(
     value = {"direct/addresses"},
     produces = "application/json"
   )
   @ResponseBody
+  @SneakyThrows
   private MockVlerResponse getMockVlerResponse() {
-    return buildVlerReponseOffHardCodedDataFiles();
+    File folder = new File("mock-vler/src/main/resources/data");
+    if (folder.listFiles() == null) {
+      throw new Exception("No data files found");
+    } else {
+      File[] listOfFiles = folder.listFiles();
+
+      List<MockVlerResponse.Contacts> contacts = new ArrayList<>();
+      MockVlerResponse currentResponse;
+      ObjectMapper mapper = new ObjectMapper();
+      JsonFactory jsonFactory = new JsonFactory();
+      for (int i = 0; i < listOfFiles.length; i++) {
+        currentResponse =
+            mapper.readValue(jsonFactory.createParser(listOfFiles[i]), MockVlerResponse.class);
+        for (int j = 0; j < currentResponse.contacts().size(); j++) {
+          contacts.add(currentResponse.contacts().get(j));
+        }
+      }
+      return MockVlerResponse.builder().contacts(contacts).count(contacts.size()).build();
+    }
   }
 }
