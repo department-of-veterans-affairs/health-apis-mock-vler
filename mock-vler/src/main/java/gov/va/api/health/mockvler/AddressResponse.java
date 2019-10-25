@@ -1,4 +1,4 @@
-package mockvler;
+package gov.va.api.health.mockvler;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -19,13 +19,13 @@ import lombok.NoArgsConstructor;
   fieldVisibility = JsonAutoDetect.Visibility.ANY,
   isGetterVisibility = JsonAutoDetect.Visibility.NONE
 )
-public final class MockVlerResponse {
-  List<Contacts> contacts;
+public final class AddressResponse {
+  List<Contact> contacts;
 
   int count;
 
   /** Lazy getter. */
-  public List<Contacts> contacts() {
+  public List<Contact> contacts() {
     if (contacts == null) {
       contacts = new ArrayList<>();
     }
@@ -38,7 +38,7 @@ public final class MockVlerResponse {
   @AllArgsConstructor(access = AccessLevel.PRIVATE)
   @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
   @JsonInclude(JsonInclude.Include.NON_NULL)
-  public static final class Contacts {
+  public static final class Contact {
 
     @JsonProperty("displayname")
     String displayName;

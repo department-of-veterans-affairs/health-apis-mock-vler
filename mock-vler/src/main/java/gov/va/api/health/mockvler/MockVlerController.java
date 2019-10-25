@@ -1,4 +1,4 @@
-package mockvler;
+package gov.va.api.health.mockvler;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,28 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
 public class MockVlerController {
 
   /** Generate and return Mock VLER Response. */
-  @GetMapping(
-    value = {"direct/addresses"},
-    produces = "application/json"
-  )
+  @GetMapping(value = "direct/addresses", produces = "application/json")
   @ResponseBody
   @SneakyThrows
-  public MockVlerResponse getMockVlerResponse() {
+  public AddressResponse getAddresses() {
     Resource[] resources =
         new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
-
-    List<MockVlerResponse.Contacts> contacts = new ArrayList<>();
-    MockVlerResponse currentResponse;
+    List<AddressResponse.Contact> contacts = new ArrayList<>();
     ObjectMapper mapper = new ObjectMapper();
     JsonFactory jsonFactory = new JsonFactory();
     for (int i = 0; i < resources.length; i++) {
-      currentResponse =
-          mapper.readValue(
-              jsonFactory.createParser(resources[i].getFile()), MockVlerResponse.class);
+      AddressResponse currentResponse =
+          mapper.readValue(jsonFactory.createParser(resources[i].getFile()), AddressResponse.class);
       for (int j = 0; j < currentResponse.contacts().size(); j++) {
         contacts.add(currentResponse.contacts().get(j));
       }
     }
-    return MockVlerResponse.builder().contacts(contacts).count(contacts.size()).build();
+    return AddressResponse.builder().contacts(contacts).count(contacts.size()).build();
   }
 }
