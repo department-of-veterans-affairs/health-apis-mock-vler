@@ -3,7 +3,6 @@ package mockvler;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AccessLevel;
@@ -20,7 +19,6 @@ import lombok.NoArgsConstructor;
   fieldVisibility = JsonAutoDetect.Visibility.ANY,
   isGetterVisibility = JsonAutoDetect.Visibility.NONE
 )
-@Schema(example = "SWAGGER_EXAMPLE_VLER_RESPONSE")
 public final class MockVlerResponse {
   List<Contacts> contacts;
 
