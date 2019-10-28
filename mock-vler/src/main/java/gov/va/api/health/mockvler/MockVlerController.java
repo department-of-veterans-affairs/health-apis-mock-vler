@@ -1,6 +1,7 @@
 package gov.va.api.health.mockvler;
 
 import gov.va.api.health.autoconfig.configuration.JacksonConfig;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.SneakyThrows;
@@ -17,12 +18,13 @@ public class MockVlerController {
   @SneakyThrows
   private static AddressResponse loadAddresses() {
     Resource[] resources =
-        new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
+        new PathMatchingResourcePatternResolver().getResources("classpath*:data/*.json");
     List<AddressResponse.Contact> contacts = new ArrayList<>();
     for (Resource resource : resources) {
-      contacts.add(
-          JacksonConfig.createMapper()
-              .readValue(resource.getFile(), AddressResponse.Contact.class));
+      try (InputStream inputStream = resource.getInputStream()) {
+        contacts.add(
+            JacksonConfig.createMapper().readValue(inputStream, AddressResponse.Contact.class));
+      }
     }
     return AddressResponse.builder().contacts(contacts).count(contacts.size()).build();
   }
