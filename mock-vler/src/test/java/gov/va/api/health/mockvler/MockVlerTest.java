@@ -14,7 +14,7 @@ public class MockVlerTest {
   @Autowired MockVlerController controller;
 
   @Test
-  public void testAddressResponseLazyGetter() {
+  public void addressResponseLazyGetter() {
     assertThat(AddressResponse.builder().build().contacts()).isEmpty();
   }
 
