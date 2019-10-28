@@ -38,7 +38,8 @@ public final class AddressResponse {
     @JsonProperty("displayname")
     String displayName;
 
-    String mail;
+    @JsonProperty("mail")
+    String emailAddress;
 
     String uid;
 
@@ -47,13 +48,14 @@ public final class AddressResponse {
 
     String initials;
 
-    String sn;
+    @JsonProperty("sn")
+    String surname;
 
     @JsonProperty("physicaldeliveryofficename")
-    String physicalDeliveryOfficeName;
+    String officeCityState;
 
     @JsonProperty("o")
-    String organization;
+    String companyName;
 
     @JsonProperty("departmentnumber")
     String departmentNumber;
@@ -65,7 +67,8 @@ public final class AddressResponse {
 
     String title;
 
-    String cn;
+    @JsonProperty("cn")
+    String commonName;
 
     String facility;
   }
