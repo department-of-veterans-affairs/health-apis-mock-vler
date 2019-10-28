@@ -34,7 +34,6 @@ public final class AddressResponse {
   @AllArgsConstructor(access = AccessLevel.PRIVATE)
   @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
   public static final class Contact {
-
     @JsonProperty("displayname")
     String displayName;
 

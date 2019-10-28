@@ -1,6 +1,6 @@
 package gov.va.api.health.mockvler;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import gov.va.api.health.autoconfig.configuration.JacksonConfig;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.SneakyThrows;
@@ -12,19 +12,26 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MockVlerController {
+  private static final AddressResponse ADDRESSES = loadAddresses();
 
-  /** Generate and return Mock VLER Response. */
-  @GetMapping(value = "direct/addresses", produces = "application/json")
-  @ResponseBody
   @SneakyThrows
-  public AddressResponse getAddresses() {
+  private static AddressResponse loadAddresses() {
     Resource[] resources =
         new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
-    ObjectMapper mapper = new ObjectMapper();
     List<AddressResponse.Contact> contacts = new ArrayList<>();
-    for (int i = 0; i < resources.length; i++) {
-      contacts.add(mapper.readValue(resources[i].getFile(), AddressResponse.Contact.class));
+    for (Resource resource : resources) {
+      contacts.add(
+          JacksonConfig.createMapper()
+              .readValue(resource.getFile(), AddressResponse.Contact.class));
     }
     return AddressResponse.builder().contacts(contacts).count(contacts.size()).build();
+  }
+
+  /** Return Mock VLER Response. */
+  @ResponseBody
+  @SneakyThrows
+  @GetMapping(value = "direct/addresses", produces = "application/json")
+  public AddressResponse getAddresses() {
+    return ADDRESSES;
   }
 }

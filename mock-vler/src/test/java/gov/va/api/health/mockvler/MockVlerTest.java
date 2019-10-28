@@ -4,24 +4,22 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
 public class MockVlerTest {
-
-  MockVlerController controller = new MockVlerController();
+  @Autowired MockVlerController controller;
 
   @Test
   public void testAddressResponseLazyGetter() {
-    AddressResponse actual = AddressResponse.builder().build();
-    assertThat(actual.contacts()).isEmpty();
+    assertThat(AddressResponse.builder().build().contacts()).isEmpty();
   }
 
   @Test
   public void validateAddressCount() {
-    AddressResponse actual = controller.getAddresses();
-    assertThat(actual.count()).isEqualTo(30);
+    assertThat(controller.getAddresses().count()).isEqualTo(30);
   }
 }
