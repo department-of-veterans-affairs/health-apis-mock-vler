@@ -18,7 +18,7 @@ public class MockVlerController {
   @SneakyThrows
   private static AddressResponse loadAddresses() {
     Resource[] resources =
-        new PathMatchingResourcePatternResolver().getResources("classpath*:data/*.json");
+        new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
     List<AddressResponse.Contact> contacts = new ArrayList<>();
     for (Resource resource : resources) {
       try (InputStream inputStream = resource.getInputStream()) {

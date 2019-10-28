@@ -11,8 +11,6 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
-    <apache.ws.security>1.6.19</apache.ws.security>
-    <ee-artifacts.version>2.0.6</ee-artifacts.version>
     <jacoco.coverage>0.78</jacoco.coverage>
   </properties>
   <dependencies>
