@@ -89,7 +89,7 @@ printResults () {
 
 # Let's get down to business
 ARGS=$(getopt -n $(basename ${0}) \
-    -l "endpoint-domain-name:,environment:,token:,base-path:,name:,given:,identifier:,endpointid:,endpointname:,help" \
+    -l "endpoint-domain-name:,environment:,base-path:,help" \
     -o "d:e:t:b:v:p:ei:en:h" -- "$@")
 [ $? != 0 ] && usage
 eval set -- "$ARGS"
