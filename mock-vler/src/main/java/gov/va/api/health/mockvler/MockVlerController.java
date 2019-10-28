@@ -31,7 +31,6 @@ public class MockVlerController {
 
   /** Return Mock VLER Response. */
   @ResponseBody
-  @SneakyThrows
   @GetMapping(value = "direct/addresses", produces = "application/json")
   public AddressResponse getAddresses() {
     return ADDRESSES;
