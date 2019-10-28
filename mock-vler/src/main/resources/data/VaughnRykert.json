@@ -1,19 +1,19 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Rykert, Vaughn",
-            "mail" : "vaughn.rykert@mocktest.direct.com",
-            "uid" : "vaughn.rykert",
-            "givenname" : "Vaughn",
-            "sn" : "Rykert",
-            "physicaldeliveryofficename" : "Santa Monica, CA",
-            "o" : "Test Organization",
-            "departmentnumber" : "Mock Digital",
-            "mobile" : "999 713 8997",
-            "title" : "Information Systems Manager",
-            "cn" : "Vaughn Rykert",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Rykert, Vaughn",
+      "mail" : "vaughn.rykert@mocktest.direct.com",
+      "uid" : "vaughn.rykert",
+      "givenname" : "Vaughn",
+      "sn" : "Rykert",
+      "physicaldeliveryofficename" : "Santa Monica, CA",
+      "o" : "Test Organization",
+      "departmentnumber" : "Mock Digital",
+      "mobile" : "999 713 8997",
+      "title" : "Information Systems Manager",
+      "cn" : "Vaughn Rykert",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

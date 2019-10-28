@@ -1,14 +1,14 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Hounsom, Emery",
-            "mail" : "emery.hounsom@mocktest.direct.com",
-            "uid" : "emery.hounsom",
-            "givenname" : "Emery",
-            "sn" : "Hounsom",
-            "cn" : "Emery Hounsom",
-            "facility" : "Mock Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Hounsom, Emery",
+      "mail" : "emery.hounsom@mocktest.direct.com",
+      "uid" : "emery.hounsom",
+      "givenname" : "Emery",
+      "sn" : "Hounsom",
+      "cn" : "Emery Hounsom",
+      "facility" : "Mock Facility"
+    }
+  ],
+  "count" : 1
 }

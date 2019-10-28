@@ -1,15 +1,15 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Freathy, L Colline",
-            "mail" : "colline.freathy@mocktest.direct.com",
-            "uid" : "colline.freathy",
-            "givenname" : "Colline",
-            "initials" : "L",
-            "sn" : "Freathy",
-            "cn" : "Colline Freathy",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Freathy, L Colline",
+      "mail" : "colline.freathy@mocktest.direct.com",
+      "uid" : "colline.freathy",
+      "givenname" : "Colline",
+      "initials" : "L",
+      "sn" : "Freathy",
+      "cn" : "Colline Freathy",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

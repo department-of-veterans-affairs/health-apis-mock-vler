@@ -1,19 +1,19 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Haskel, Yurikov",
-            "mail" : "yurikov.haskel@mocktest.direct.com",
-            "uid" : "yurikov.haskel",
-            "givenname" : "Yurikov",
-            "sn" : "Haskel",
-            "physicaldeliveryofficename" : "Baton Rouge, LA",
-            "o" : "Test Organization",
-            "departmentnumber" : "Systems Engineering Management",
-            "mobile" : "1512738728",
-            "title" : "Staff Scientist",
-            "cn" : "Yurikov Haskel",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Haskel, Yurikov",
+      "mail" : "yurikov.haskel@mocktest.direct.com",
+      "uid" : "yurikov.haskel",
+      "givenname" : "Yurikov",
+      "sn" : "Haskel",
+      "physicaldeliveryofficename" : "Baton Rouge, LA",
+      "o" : "Test Organization",
+      "departmentnumber" : "Systems Engineering Management",
+      "mobile" : "1512738728",
+      "title" : "Staff Scientist",
+      "cn" : "Yurikov Haskel",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

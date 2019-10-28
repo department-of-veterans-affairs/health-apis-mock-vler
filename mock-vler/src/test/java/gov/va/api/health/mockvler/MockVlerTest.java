@@ -14,6 +14,12 @@ public class MockVlerTest {
   MockVlerController controller = new MockVlerController();
 
   @Test
+  public void testAddressResponseLazyGetter() {
+    AddressResponse actual = AddressResponse.builder().build();
+    assertThat(actual.contacts()).isEmpty();
+  }
+
+  @Test
   public void validateAddressCount() {
     AddressResponse actual = controller.getAddresses();
     assertThat(actual.count()).isEqualTo(30);

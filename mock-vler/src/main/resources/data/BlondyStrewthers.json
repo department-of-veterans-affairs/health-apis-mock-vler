@@ -1,14 +1,14 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Strewthers, Blondy",
-            "mail" : "strewthers.blondy@mocktest.direct.com",
-            "uid" : "strewthers.blondy",
-            "givenname" : "Blondy",
-            "sn" : "Strewthers",
-            "cn" : "Blondy Strewthers",
-            "facility" : "Mock Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Strewthers, Blondy",
+      "mail" : "strewthers.blondy@mocktest.direct.com",
+      "uid" : "strewthers.blondy",
+      "givenname" : "Blondy",
+      "sn" : "Strewthers",
+      "cn" : "Blondy Strewthers",
+      "facility" : "Mock Facility"
+    }
+  ],
+  "count" : 1
 }

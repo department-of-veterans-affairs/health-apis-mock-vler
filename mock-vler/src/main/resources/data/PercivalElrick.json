@@ -1,19 +1,19 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Elrick, Percival",
-            "mail" : "percival.elrick@mocktest.direct.com",
-            "uid" : "percival.elrick",
-            "givenname" : "Percival",
-            "sn" : "Elrick",
-            "physicaldeliveryofficename" : "Decatur, GA",
-            "o" : "Test Organization",
-            "departmentnumber" : "Flye Wryte",
-            "mobile" : "198-827-6236",
-            "title" : "Quality Control Specialist",
-            "cn" : "Percival Elrick",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Elrick, Percival",
+      "mail" : "percival.elrick@mocktest.direct.com",
+      "uid" : "percival.elrick",
+      "givenname" : "Percival",
+      "sn" : "Elrick",
+      "physicaldeliveryofficename" : "Decatur, GA",
+      "o" : "Test Organization",
+      "departmentnumber" : "Flye Wryte",
+      "mobile" : "198-827-6236",
+      "title" : "Quality Control Specialist",
+      "cn" : "Percival Elrick",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

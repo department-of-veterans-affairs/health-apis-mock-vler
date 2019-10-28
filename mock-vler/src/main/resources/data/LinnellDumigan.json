@@ -1,19 +1,19 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Dumigan, Linnell",
-            "mail" : "linnell.dumigan@mocktest.direct.com",
-            "uid" : "linnell.dumigan",
-            "givenname" : "Linnell",
-            "sn" : "Dumigan",
-            "physicaldeliveryofficename" : "Houston, TX",
-            "o" : "Test Organization",
-            "departmentnumber" : "Community Outreach",
-            "mobile" : "3228416550",
-            "title" : "Teacher",
-            "cn" : "Linnell Dumigan",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Dumigan, Linnell",
+      "mail" : "linnell.dumigan@mocktest.direct.com",
+      "uid" : "linnell.dumigan",
+      "givenname" : "Linnell",
+      "sn" : "Dumigan",
+      "physicaldeliveryofficename" : "Houston, TX",
+      "o" : "Test Organization",
+      "departmentnumber" : "Community Outreach",
+      "mobile" : "3228416550",
+      "title" : "Teacher",
+      "cn" : "Linnell Dumigan",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

@@ -1,15 +1,15 @@
 {
-    "contacts" : [
-        {
-            "displayname" : "Whorall, Bobbi M",
-            "mail" : "bobbi.whorall@mocktest.direct.com",
-            "uid" : "bobbi.whorall",
-            "givenname" : "Bobbi",
-            "initials" : "M",
-            "sn" : "Whorall",
-            "cn" : "Bobbi Whorall",
-            "facility" : "Test Facility"
-        }
-    ],
-    "count" : 1
+  "contacts" : [
+    {
+      "displayname" : "Whorall, Bobbi M",
+      "mail" : "bobbi.whorall@mocktest.direct.com",
+      "uid" : "bobbi.whorall",
+      "givenname" : "Bobbi",
+      "initials" : "M",
+      "sn" : "Whorall",
+      "cn" : "Bobbi Whorall",
+      "facility" : "Test Facility"
+    }
+  ],
+  "count" : 1
 }

@@ -1,6 +1,5 @@
 package gov.va.api.health.mockvler;
 
-import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,10 +22,9 @@ public class MockVlerController {
         new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
     List<AddressResponse.Contact> contacts = new ArrayList<>();
     ObjectMapper mapper = new ObjectMapper();
-    JsonFactory jsonFactory = new JsonFactory();
     for (int i = 0; i < resources.length; i++) {
       AddressResponse currentResponse =
-          mapper.readValue(jsonFactory.createParser(resources[i].getFile()), AddressResponse.class);
+          mapper.readValue((resources[i].getFile()), AddressResponse.class);
       for (int j = 0; j < currentResponse.contacts().size(); j++) {
         contacts.add(currentResponse.contacts().get(j));
       }
