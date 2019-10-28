@@ -1,14 +1,9 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "DeMeyer, Ingaborg",
-      "mail" : "ingaborg.demeyer@mocktest.direct.com",
-      "uid" : "ingaborg.demeyer",
-      "givenname" : "Ingaborg",
-      "sn" : "DeMeyer",
-      "cn" : "Ingaborg DeMeyer",
-      "facility" : "Mock Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "DeMeyer, Ingaborg",
+  "mail" : "ingaborg.demeyer@mocktest.direct.com",
+  "uid" : "ingaborg.demeyer",
+  "givenname" : "Ingaborg",
+  "sn" : "DeMeyer",
+  "cn" : "Ingaborg DeMeyer",
+  "facility" : "Mock Facility"
 }

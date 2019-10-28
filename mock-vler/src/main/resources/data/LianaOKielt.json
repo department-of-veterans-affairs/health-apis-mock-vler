@@ -1,19 +1,14 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "O'Kielt, Liana L",
-      "mail" : "liana.okielt@mocktest.direct.com",
-      "uid" : "liana.okielt",
-      "givenname" : "Liana",
-      "sn" : "O'Kielt",
-      "physicaldeliveryofficename" : "Test Place",
-      "departmentnumber" : "Test Place",
-      "mobile" : "936-546-3205",
-      "telephonenumber" : "307-808-4035",
-      "title" : "Community Outreach Specialist",
-      "cn" : "Liana O'Kielt",
-      "facility" : "Test Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "O'Kielt, Liana L",
+  "mail" : "liana.okielt@mocktest.direct.com",
+  "uid" : "liana.okielt",
+  "givenname" : "Liana",
+  "sn" : "O'Kielt",
+  "physicaldeliveryofficename" : "Test Place",
+  "departmentnumber" : "Test Place",
+  "mobile" : "936-546-3205",
+  "telephonenumber" : "307-808-4035",
+  "title" : "Community Outreach Specialist",
+  "cn" : "Liana O'Kielt",
+  "facility" : "Test Facility"
 }

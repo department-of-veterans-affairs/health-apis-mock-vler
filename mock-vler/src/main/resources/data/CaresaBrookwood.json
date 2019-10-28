@@ -1,19 +1,14 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Brookwood, Caresa",
-      "mail" : "caresa.brookwood@mocktest.direct.com",
-      "uid" : "caresa.brookwood",
-      "givenname" : "Caresa",
-      "sn" : "Brookwood",
-      "physicaldeliveryofficename" : "El Paso, TX",
-      "o" : "Test Organization",
-      "departmentnumber" : "Test Management",
-      "mobile" : "8527120618",
-      "title" : "Programmer II",
-      "cn" : "Caresa Brookwood",
-      "facility" : "Test Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Brookwood, Caresa",
+  "mail" : "caresa.brookwood@mocktest.direct.com",
+  "uid" : "caresa.brookwood",
+  "givenname" : "Caresa",
+  "sn" : "Brookwood",
+  "physicaldeliveryofficename" : "El Paso, TX",
+  "o" : "Test Organization",
+  "departmentnumber" : "Test Management",
+  "mobile" : "8527120618",
+  "title" : "Programmer II",
+  "cn" : "Caresa Brookwood",
+  "facility" : "Test Facility"
 }

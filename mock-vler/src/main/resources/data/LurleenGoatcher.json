@@ -1,19 +1,14 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Goatcher, Lurleen",
-      "mail" : "lurleen.goatcher@mocktest.direct.com",
-      "uid" : "lurleen.goatcher",
-      "givenname" : "Lurleen",
-      "sn" : "Goatcher",
-      "physicaldeliveryofficename" : "Eye Mock Media",
-      "departmentnumber" : "Digital Outreach",
-      "mobile" : "(322)-841-6550",
-      "telephonenumber" : "(936)-546-3205",
-      "title" : "Media Manager I",
-      "cn" : "Lurleen Goatcher",
-      "facility" : "Test Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Goatcher, Lurleen",
+  "mail" : "lurleen.goatcher@mocktest.direct.com",
+  "uid" : "lurleen.goatcher",
+  "givenname" : "Lurleen",
+  "sn" : "Goatcher",
+  "physicaldeliveryofficename" : "Eye Mock Media",
+  "departmentnumber" : "Digital Outreach",
+  "mobile" : "(322)-841-6550",
+  "telephonenumber" : "(936)-546-3205",
+  "title" : "Media Manager I",
+  "cn" : "Lurleen Goatcher",
+  "facility" : "Test Facility"
 }

@@ -1,14 +1,9 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Bassingham, Hastings",
-      "mail" : "hastings.bassingham@mocktest.direct.com",
-      "uid" : "hastings.bassingham",
-      "givenname" : "Hastings",
-      "sn" : "Bassingham",
-      "cn" : "Hastings Bassingham",
-      "facility" : "Mock Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Bassingham, Hastings",
+  "mail" : "hastings.bassingham@mocktest.direct.com",
+  "uid" : "hastings.bassingham",
+  "givenname" : "Hastings",
+  "sn" : "Bassingham",
+  "cn" : "Hastings Bassingham",
+  "facility" : "Mock Facility"
 }

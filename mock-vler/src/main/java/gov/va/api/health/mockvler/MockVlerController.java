@@ -20,14 +20,10 @@ public class MockVlerController {
   public AddressResponse getAddresses() {
     Resource[] resources =
         new PathMatchingResourcePatternResolver().getResources("classpath:data/*.json");
-    List<AddressResponse.Contact> contacts = new ArrayList<>();
     ObjectMapper mapper = new ObjectMapper();
+    List<AddressResponse.Contact> contacts = new ArrayList<>();
     for (int i = 0; i < resources.length; i++) {
-      AddressResponse currentResponse =
-          mapper.readValue((resources[i].getFile()), AddressResponse.class);
-      for (int j = 0; j < currentResponse.contacts().size(); j++) {
-        contacts.add(currentResponse.contacts().get(j));
-      }
+      contacts.add(mapper.readValue(resources[i].getFile(), AddressResponse.Contact.class));
     }
     return AddressResponse.builder().contacts(contacts).count(contacts.size()).build();
   }

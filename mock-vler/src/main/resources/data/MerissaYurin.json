@@ -1,19 +1,14 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Yurin, Merissa",
-      "mail" : "merissa.yurin@mocktest.direct.com",
-      "uid" : "merissa.yurin",
-      "givenname" : "Merissa",
-      "sn" : "Yurin",
-      "physicaldeliveryofficename" : "Waterbury, CT",
-      "o" : "Test Organization",
-      "departmentnumber" : "Finally Financial",
-      "mobile" : "5484651587",
-      "title" : "Staff Accountant I",
-      "cn" : "Merissa Yurin",
-      "facility" : "Test Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Yurin, Merissa",
+  "mail" : "merissa.yurin@mocktest.direct.com",
+  "uid" : "merissa.yurin",
+  "givenname" : "Merissa",
+  "sn" : "Yurin",
+  "physicaldeliveryofficename" : "Waterbury, CT",
+  "o" : "Test Organization",
+  "departmentnumber" : "Finally Financial",
+  "mobile" : "5484651587",
+  "title" : "Staff Accountant I",
+  "cn" : "Merissa Yurin",
+  "facility" : "Test Facility"
 }

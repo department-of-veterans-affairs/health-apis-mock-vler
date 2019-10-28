@@ -1,14 +1,9 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "McGilroy, Lisetta",
-      "mail" : "lisetta.mcgilroy@mocktest.direct.com",
-      "uid" : "lisetta.mcgilroy",
-      "givenname" : "Lisetta",
-      "sn" : "McGilroy",
-      "cn" : "Lisetta McGilroy",
-      "facility" : "Mock Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "McGilroy, Lisetta",
+  "mail" : "lisetta.mcgilroy@mocktest.direct.com",
+  "uid" : "lisetta.mcgilroy",
+  "givenname" : "Lisetta",
+  "sn" : "McGilroy",
+  "cn" : "Lisetta McGilroy",
+  "facility" : "Mock Facility"
 }

@@ -1,14 +1,9 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Keepe, Claudio",
-      "mail" : "claudio.keepe@mocktest.direct.com",
-      "uid" : "claudio.keepe",
-      "givenname" : "Claudio",
-      "sn" : "Keep",
-      "cn" : "Claudio Keepe",
-      "facility" : "Mock Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Keepe, Claudio",
+  "mail" : "claudio.keepe@mocktest.direct.com",
+  "uid" : "claudio.keepe",
+  "givenname" : "Claudio",
+  "sn" : "Keep",
+  "cn" : "Claudio Keepe",
+  "facility" : "Mock Facility"
 }

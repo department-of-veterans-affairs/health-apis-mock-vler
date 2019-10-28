@@ -1,19 +1,14 @@
 {
-  "contacts" : [
-    {
-      "displayname" : "Galgey, Georgette T",
-      "mail" : "georgette.galgey@mocktest.direct.com",
-      "uid" : "georgette.galgey",
-      "givenname" : "Georgette",
-      "sn" : "Galgey",
-      "physicaldeliveryofficename" : "Office of Delivery",
-      "departmentnumber" : "Messenger Party",
-      "mobile" : "610-792-3184",
-      "telephonenumber" : "854-696-7012",
-      "title" : "Occupational Therapist",
-      "cn" : "Georgette Galgey",
-      "facility" : "Test Facility"
-    }
-  ],
-  "count" : 1
+  "displayname" : "Galgey, Georgette T",
+  "mail" : "georgette.galgey@mocktest.direct.com",
+  "uid" : "georgette.galgey",
+  "givenname" : "Georgette",
+  "sn" : "Galgey",
+  "physicaldeliveryofficename" : "Office of Delivery",
+  "departmentnumber" : "Messenger Party",
+  "mobile" : "610-792-3184",
+  "telephonenumber" : "854-696-7012",
+  "title" : "Occupational Therapist",
+  "cn" : "Georgette Galgey",
+  "facility" : "Test Facility"
 }
