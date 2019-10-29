@@ -29,15 +29,23 @@ EOF
 exit 1
 }
 
-# Keeps track of successes and failures
-trackStatus () {
-  if [ "$status_code" == 200 -o "$status_code" == 201 ]
-    then
-      SUCCESS=$((SUCCESS + 1))
-      echo "$request_url: $status_code - Success"
-    else
-      FAILURE=$((FAILURE + 1))
-      echo "$request_url: $status_code - Fail"
+doCurl () {
+  if [[ -n "$2" ]]
+  then
+    REQUEST_URL="$ENDPOINT_DOMAIN_NAME$BASE_PATH${path// /%20}"
+    status_code=$(curl -k -H "Authorization: Bearer $2" --write-out %{http_code} --silent --output /dev/null "$REQUEST_URL")
+  else
+    REQUEST_URL="$ENDPOINT_DOMAIN_NAME$BASE_PATH${path// /%20}"
+    status_code=$(curl -k --write-out %{http_code} --silent --output /dev/null "$REQUEST_URL")
+  fi
+
+  if [[ "$status_code" == $1 ]]
+  then
+    SUCCESS=$((SUCCESS + 1))
+    echo "$REQUEST_URL: $status_code - Success"
+  else
+    FAILURE=$((FAILURE + 1))
+    echo "$REQUEST_URL: $status_code - Fail"
   fi
 }
 
